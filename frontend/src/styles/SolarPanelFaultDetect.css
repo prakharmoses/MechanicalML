@@ -1,0 +1,67 @@
+/* SolarPanelFaultDetect.css */
+
+.solarpanel-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.solarpanel-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.solarpanel-container button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+.solarpanel-container button:hover {
+    background-color: #45a049;
+}
+
+.solarpanel-container .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.solarpanel-container p {
+    text-align: center;
+    color: #333;
+}
+
+.solarpanel-container img {
+    width: 100%;
+    max-width: 10rem;
+    height: auto;
+    max-height: 8rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+.solarpanel-container .error {
+    color: red;
+    text-align: center;
+}
